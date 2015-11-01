@@ -165,9 +165,10 @@ file, and replace with the path to your own configuration.
 The 5i25 branch assumes an installed 5i25 (or 5i25 compatible) Mesa card.
 The correct FPGA configuration (5i25_g540x2.bit) must be uploaded to the
 daughter card. If the Mesa card has not been reflashed,
+
 1. Download the [complete firmware source files](http://www.mesanet.com/software/parallel/5i25.zip)
    for the 5i25 card.
-1. upload, verify, and reconfigure the Mesa card's FPGA:
+2. upload, verify, and reconfigure the Mesa card's FPGA:
     
     sudo mesaflash --device 5I25 --write 5i25_g540x2.bit
     sudo mesaflash --device 5I25 --verify 5i25_g540x2.bit
