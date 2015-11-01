@@ -170,11 +170,11 @@ daughter card. If the Mesa card has not been reflashed,
    for the 5i25 card.
 2. upload, verify, and reconfigure the Mesa card's FPGA:
 
-    
+```bash
     sudo mesaflash --device 5I25 --write 5i25_g540x2.bit
     sudo mesaflash --device 5I25 --verify 5i25_g540x2.bit
     sudo mesaflash --device 5i25 --reload
-    
+```
 
 Configuration
 =============
