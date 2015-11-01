@@ -169,6 +169,7 @@ daughter card. If the Mesa card has not been reflashed,
 1. Download the [complete firmware source files](http://www.mesanet.com/software/parallel/5i25.zip)
    for the 5i25 card.
 2. upload, verify, and reconfigure the Mesa card's FPGA:
+
     
     sudo mesaflash --device 5I25 --write 5i25_g540x2.bit
     sudo mesaflash --device 5I25 --verify 5i25_g540x2.bit
