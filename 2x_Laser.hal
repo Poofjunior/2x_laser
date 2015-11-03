@@ -4,7 +4,7 @@
 
 loadrt threads name1=laser-thread period1=[EMCMOT]BASE_PERIOD
 
-loadrt trivkins
+loadrt corexykins
 loadrt [EMCMOT]EMCMOT servo_period_nsec=[EMCMOT]SERVO_PERIOD num_joints=[TRAJ]AXES
 
 # In case the need for the original parallel port on my system arises...
